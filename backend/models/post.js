@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const tripSchema = new mongoose.Schema({
+const postSchema = new mongoose.Schema({
   tripTitle: {
     type: String,
     required: [true, "Please give a title to your trip"],
@@ -67,6 +67,6 @@ const tripSchema = new mongoose.Schema({
   },
 });
 
-const Trip = mongoose.model("Trip", tripSchema);
+const Post = mongoose.model("Post", postSchema);
 
-module.exports = Trip;
+module.exports = Post;

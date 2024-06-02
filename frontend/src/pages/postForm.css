@@ -1,0 +1,117 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: fit-content;
+  margin: auto;
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+  background-color: rgb(209, 204, 204);
+}
+
+.upper {
+  height: 8%;
+  display: flex;
+  justify-content: left;
+  padding-left: 1rem;
+  border-radius: 0.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2rem;
+  /* background-color: cadetblue; */
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input1 {
+  display: flex;
+  gap: 2rem;
+}
+
+.Loctyp {
+  text-decoration: underline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input2 {
+  /* width: 18rem; */
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.input2a {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.locationInput {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 2rem; */
+}
+
+.locationPic {
+  opacity: 0;
+}
+
+.picUpload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media only screen and (min-width: 768px) {
+  .locationInput {
+    gap: 10rem;
+  }
+
+  .input2a {
+     justify-content: center; 
+     align-items: center; 
+   }
+}  */
+
+.preview-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.preview-img {
+  max-width: 100px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
